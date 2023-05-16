@@ -4,7 +4,8 @@
   "description": "NLW Spacetime by RocketSeat",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "lint": "eslint src --ext .ts --fix"
   },
   "repository": {
     "type": "git",
@@ -18,11 +19,15 @@
   },
   "homepage": "https://github.com/gustavotassi/nlw-spacetime#readme",
   "devDependencies": {
+    "@rocketseat/eslint-config": "^1.2.0",
     "@types/node": "^20.1.7",
+    "eslint": "^8.40.0",
+    "prisma": "^4.14.0",
     "tsx": "^3.12.7",
     "typescript": "^5.0.4"
   },
   "dependencies": {
+    "@prisma/client": "^4.14.0",
     "fastify": "^4.17.0"
   }
 }
