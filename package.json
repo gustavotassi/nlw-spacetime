@@ -1,0 +1,28 @@
+{
+  "name": "spacetime",
+  "version": "1.0.0",
+  "description": "NLW Spacetime by RocketSeat",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavotassi/nlw-spacetime.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavotassi/nlw-spacetime/issues"
+  },
+  "homepage": "https://github.com/gustavotassi/nlw-spacetime#readme",
+  "devDependencies": {
+    "@types/node": "^20.1.7",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "fastify": "^4.17.0"
+  }
+}
